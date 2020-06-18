@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    background-color: #1d1d44;
+}
+nav ol {
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+nav li {
+    margin: 20px;
+}
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.login > * {
+    margin: 20px;
+}

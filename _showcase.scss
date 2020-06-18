@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    p {
+        color: black;
+    }
+    img {
+        margin: 20px;
+    }
+    h2 {
+        color: black;
+    }
+}
+.subsection {
+    display: flex;
+    flex-direction: row;
+}
+.object {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 15px;
+    font-size: 100px;
+    box-shadow: 2px 8px;
+    margin: 20px;
+}

@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    align-items: center;
+}
+input {
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:ital,wght@1,800&display=swap");
+@import "_nav";
+@import "_logo";
+@import "_hero";
+@import "_form";
+@import "_footer";
+@import "_showcase";
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+a {
+    text-decoration: none;
+    margin: 5%;
+}
+a:hover {
+    color: red;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin: 40px 0px;
+}
+h2 {
+    margin: 20px 0px;
+}
+.main-button {
+    padding: 10px 20px;
+    max-height: 100px;
+    border-radius: 3px;
+    background-color: rgb(144, 37, 37);
+    cursor: pointer;
+}
+.main-button:hover {
+    background-color: red;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin: 10px;
+}
+.content {
+    font-size: 13px;
+    margin: 10px;
+}
