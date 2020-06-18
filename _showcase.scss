@@ -1,14 +1,15 @@
 .card {
     display: flex;
     flex-direction: column;
+    margin: 30px;
     p {
-        color: black;
+        color: $textPrimary;
     }
     img {
         margin: 20px;
     }
     h2 {
-        color: black;
+        color: $textPrimary;
     }
 }
 .subsection {
@@ -24,6 +25,5 @@
     background-color: grey;
     border-radius: 15px;
     font-size: 100px;
-    box-shadow: 2px 8px;
     margin: 20px;
 }

@@ -1,3 +1,9 @@
+$textPrimary: rgb(0, 0, 0);
+$textSecondary: rgb(255, 255, 255);
+$colorPrimary: #1d1d44;
+$secondary1: #ffb802;
+$secondary2: #21e640;
+$secondary3: #d43232;
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:ital,wght@1,800&display=swap");
 @import "_nav";
 @import "_logo";
@@ -5,24 +11,37 @@
 @import "_form";
 @import "_footer";
 @import "_showcase";
+
 * {
     margin: 0px;
     padding: 0px;
-    color: white;
     font-family: "Comfortaa", sans-serif;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
     margin: 5%;
+    color: $textSecondary;
 }
 a:hover {
-    color: red;
+    color: $secondary3;
 }
 h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
     margin: 40px 0px;
+    color: $secondary3;
+    span {
+        font-family: "Montserrat", sans-serif;
+    }
 }
+.bold1 {
+    color: $secondary1;
+}
+.bold2 {
+    color: $secondary2;
+}
+
 h2 {
     margin: 20px 0px;
 }
@@ -35,6 +54,7 @@ h2 {
 }
 .main-button:hover {
     background-color: red;
+    color: $textSecondary;
 }
 main {
     display: flex;
@@ -44,8 +64,6 @@ main {
 }
 .content-container {
     display: flex;
-    flex-direction: row;
-    justify-items: flex-start;
     margin: 10px;
 }
 .content {
